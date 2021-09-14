@@ -1,0 +1,20 @@
+.app {
+  main {
+    margin: 2rem 5rem;
+    .cards-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .loader-container {
+      display: flex;
+      justify-content: center;
+      padding: 10rem 0;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    main {
+      margin: 1rem;
+    }
+  }
+}
